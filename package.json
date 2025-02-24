@@ -3,13 +3,13 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "test": "jest --watchAll",
-    "lint": "expo lint"
+    "start": "InvenTasty/node_modules/.bin/expo start",
+    "reset-project": "node InvenTasty/scripts/reset-project.js",
+    "android": "InvenTasty/node_modules/.bin/expo start --android",
+    "ios": "InvenTasty/node_modules/.bin/expo start --ios",
+    "web": "InvenTasty/node_modules/.bin/expo start --web",
+    "test": "InvenTasty/node_modules/.bin/jest --watchAll",
+    "lint": "InvenTasty/node_modules/.bin/expo lint"
   },
   "jest": {
     "preset": "jest-expo"
