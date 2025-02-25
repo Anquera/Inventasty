@@ -52,9 +52,8 @@ export default function HomeScreen() {
       </ThemedView>
     </ParallaxScrollView>
   );
-}
 
-const styles = StyleSheet.create({
+}
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
